@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1F2937;
+    gap: 1rem;
+}
+
+.logo p {
+    color: #F9FAF8;
+    font-family: system-ui;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+    margin-left: 200px;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+    padding-right: 30px;
+}
+
+.links a {
+    color: #E5E7EB;
+    font-family: system-ui;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.container1 {
+    display: flex;
+    justify-content: row;
+    background-color: #1F2937;
+    margin: 0;
+    padding-left: 220px;
+    color: #F9FAF8;
+    font-family: system-ui;
+}
+
+.left .info {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.left button {
+    background-color: #3B82F6;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    font-size: large;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.right img {
+    height: 500px;
+    width: auto;
+}
