@@ -39,9 +39,17 @@ body {
     justify-content: row;
     background-color: #1F2937;
     margin: 0;
-    padding-left: 220px;
+    padding-left: 172px;
     color: #F9FAF8;
     font-family: system-ui;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    gap: 1rem;
 }
 
 .left .info {
@@ -61,6 +69,8 @@ body {
 }
 
 .right img {
-    height: 500px;
+    margin-left: 130px;
+    padding: 34px 80px 34px 34px;
+    height: 300px;
     width: auto;
 }
