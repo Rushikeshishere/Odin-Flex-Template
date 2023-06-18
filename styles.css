@@ -110,3 +110,89 @@ body {
     font-size: 18px;
     font-family: system-ui;
 }
+
+.container3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.container3 .p1 {
+    font-family: system-ui;
+    font-size: 36px;
+    font-weight: 150;
+    opacity: 0.7;
+    font-style: italic;
+    padding: 50px;
+    padding-bottom: 0;
+    margin-left: 150px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: start;
+}
+
+.container3 .p2 {
+    color: #1F2937;
+    font-family: system-ui;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0.8;
+    display: flex;
+    justify-content: end;
+    padding-right: 275px;
+}
+
+.miniSignup {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 75px;
+}
+
+.miniSignup div {
+    background-color: #3882F9;
+    border-radius: 16px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 15px 30px;
+}
+
+.miniSignup div .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.miniSignup div .left .p1 {
+    color: #F9FAF8;
+    font-family: system-ui;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.miniSignup div .left .p2 {
+    color: #F9FAF8;
+    font-family: system-ui;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.miniSignup div .right button {
+    display: flex;
+    justify-content: center;
+    background-color: #3B82F6;
+    font-weight: bold;
+    color: #F9FAF8;
+    font-family: system-ui;
+    font-size: large;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    margin-top: 35px;
+    gap: 1rem
+}
