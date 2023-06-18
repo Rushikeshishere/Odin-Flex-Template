@@ -74,3 +74,39 @@ body {
     height: 300px;
     width: auto;
 }
+
+.container2 {
+    text-align: center;
+    margin-left: 150px;
+}
+
+.container2 p {
+    font-size: 36px;
+    font-weight: x-bold;
+    color: #1F2937;
+    font-family: system-ui;    
+}
+
+.container2 .subcontainer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 50px;
+}
+
+.container2 .subcontainer .subholder {
+    background-color: #F9FAF8;
+    padding: 20px;
+    border-radius: 16px;
+    width: 175px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 3px solid #3882F9;
+}
+
+.info p {
+    font-size: 18px;
+    font-family: system-ui;
+}
