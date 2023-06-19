@@ -36,7 +36,6 @@ body {
 
 .container1 {
     display: flex;
-    justify-content: row;
     background-color: #1F2937;
     margin: 0;
     padding-left: 172px;
