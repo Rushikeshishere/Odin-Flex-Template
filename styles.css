@@ -197,3 +197,15 @@ body {
     margin-top: 35px;
     gap: 1rem
 }
+
+.footer {
+    background-color: #1F2937;
+}
+
+.footer p {
+    color: #F9FAF8;
+    font-family: system-ui;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
